@@ -1,0 +1,28 @@
+# Dataset (raw and generated splits)
+PetImages/
+data/
+
+# Trained model weights
+*.pth
+models/
+
+# Local docs (kept out of git on purpose)
+.docs/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment / secrets
+.env
+kaggle.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
